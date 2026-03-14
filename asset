@@ -1,0 +1,240 @@
+#header h1 sup,
+#greeting .icon,
+#header .button,
+#header .landmark,
+#header .logo {
+  display: none;
+}
+
+#header,
+#inner.wrapper {
+  margin: 0em 4%;
+}
+
+#main,
+#inner.wrapper,
+.listbox .index,
+.work.own,
+.thread .even {
+  background: #efe7ff;
+}
+
+#outer.wrapper {
+  background: #e7dcff;
+  padding-top: 140px;
+  background-image: url("https://raw.githubusercontent.com/sorakissed/ao3photos/main/cherr.jpg");
+  background-size: 50% auto;
+  background-repeat: repeat;
+  background-position: center top;
+}
+
+#header .heading {
+  margin: 20px 0px 10px 20px;
+  border: 2px solid #a78bfa;
+  background-color: #d6c6ff;
+  border-radius: 20px;
+  width: 130px;
+  height: 80px;
+  display: block;
+}
+
+#header {
+  background-color: #e7dcff;
+  border-radius: 20px;
+  border: 10px solid #a78bfa;
+  box-shadow: 0 0 4px #000;
+}
+
+#header .primary {
+  box-shadow: none;
+  background: none;
+  color: #2a2143;
+}
+
+#header .primary li:first-child {
+  margin-left: 0em;
+}
+
+#header .primary li,
+#header .primary li a,
+#greeting li,
+#greeting li a {
+  color: #2a2143;
+}
+
+#header .heading a {
+  color: #7c5cff;
+  font-size: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header h1.heading a::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 140px;
+  background: url("https://raw.githubusercontent.com/sorakissed/ao3photos/main/valentinehollanov.png") no-repeat center;
+  background-size: contain;
+}
+
+#greeting {
+  background: none;
+  margin-right: 0em;
+  color: #2a2143;
+  padding: 20px;
+}
+
+#greeting li {
+  clear: left;
+  border-bottom: 1px dashed #2a2143;
+  margin-top: 0.3em;
+}
+
+#greeting .icon img {
+  margin-top: 0.3em;
+  border: 2px solid #fff;
+}
+
+#greeting .dropdown .menu li {
+  margin: 0 0.125em;
+}
+
+#greeting .menu {
+  width: 16em;
+}
+
+#footer .menu a,
+#footer .menu {
+  color: #2a2143;
+}
+
+.system .latest h3,
+.splash .module h3,
+.system .tweets h3 {
+  color: #7c5cff;
+}
+
+#footer {
+  border: none;
+  background: none;
+}
+
+.blurb h4 a:link,
+#footer h4 {
+  color: #7c5cff;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus,
+a.tag:hover,
+a.tag:focus,
+#dashboard a:hover,
+#dashboard a:focus,
+#dashboard .current,
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus {
+  background: #a78bfa;
+  color: #fff;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .dropdown .menu a,
+#header .dropdown .menu,
+#greeting .dropdown .menu,
+#greeting .dropdown .menu a {
+  background: #d6c6ff;
+  color: #000;
+}
+
+#dashboard,
+#dashboard.own {
+  background: #e7dcff;
+  color: #000;
+  border: 2px solid #a78bfa;
+  box-shadow: 0 0 2px #000;
+}
+
+#header .dropdown .menu,
+#greeting .dropdown .menu {
+  border: 1px solid #a78bfa;
+}
+
+#greeting .current,
+#greeting .dropdown:hover li,
+#greeting .dropdown:focus li {
+  box-shadow: none;
+  background: #d6c6ff;
+  color: #000;
+}
+
+#dashboard ul {
+  background: transparent;
+  border: none;
+}
+
+#dashboard .secondary {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.comment h4.byline,
+#main .verbose legend,
+.unread,
+.child,
+.unwrangled,
+.unreviewed,
+.verbose fieldset,
+.draft,
+form ul.notes,
+#modal,
+.ui-sortable li,
+.comment_notice,
+.kudos_notice,
+div.dynamic,
+#ui-datepicker-div,
+.ui-datepicker table {
+  background-color: #c6b3ff;
+  border-color: #a78bfa;
+}
+
+.flash,
+.notice {
+  background-color: #c6b3ff;
+  border-color: #000;
+}
+
+form .notice,
+ul.notes,
+.caution {
+  background-color: #efe7ff;
+  border-color: #2a2143;
+}
+
+.alert.flash,
+.error,
+.comment_error,
+.kudos_error {
+  background: #e4dcff;
+  color: #000;
+  border-color: #900;
+}
+
+#workskin {
+  text-align: justify;
+}
+
+#workskin h2 {
+  font-size: 2.7em;
+  color: #7c5cff;
+}
+
+ul.tags li.relationships a {
+  color: #7c5cff;
+}
